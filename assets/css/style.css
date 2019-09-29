@@ -34,7 +34,7 @@ header {
   float: right;
   margin-right: 8px;
   position: relative;
-  bottom: -50%;
+  top: 69px; 
 }
 .opaq {
   opacity: 0.4;
@@ -54,7 +54,6 @@ a:hover {
 
 #aboutme {
   background: #ffffff;
-	/* height: 550px; */
 	padding: 50px; 
   overflow: auto;
   box-shadow: 0px 0px 9px 3px #777777;
@@ -81,15 +80,12 @@ h2 {
 #firstp {
   margin-top: 15px;
 }
-/* Colors */
 p {
     color: #777777;
 }
-/* Fonts */
   p{
     font-family: Arial;
   }
-/* hr specials */
 hr {
   border-width: 2px;
   color: #777777;
@@ -150,7 +146,7 @@ hr {
   display: block;
 }
 #portfolio {
-box-shadow: 0px 0px 9px 3px #777777;
+  box-shadow: 0px 0px 9px 3px #777777;
   background: #ffffff;
 	padding: 50px;
   overflow: auto;
@@ -195,10 +191,23 @@ box-shadow: 0px 0px 9px 3px #777777;
     }
 }
 #aboutme {
-  margin: 10px 10px 60px 10px
+  margin: 0px 10px 70px 10px
 }
+#portfolio {
+  padding: 50px;
+  margin: 10px 10px 120px 10px;
+  }
 
 @media screen and (max-width:768px){
+   header {
+    height: 120px;
+  }
+  .header {
+    height: 117px;
+  } 
+  .navheader {
+    top: 60px;
+  } 
 
   #aboutme {
     margin: 0px 20px 80px 20px;
@@ -221,28 +230,36 @@ box-shadow: 0px 0px 9px 3px #777777;
   }
   #portfolio {
   padding: 44px;
-  margin: 10px;
+  margin: 10px 10px 90px 10px;
   }
 @media screen and (max-width:640px){
+  header {
+    height: 112px;
+  }
 
   .header {
-    height: 136px;
-    width: 40%;
-    font-size:24px;
+    height: 109px;
+    width: 100%;
+    font-size:30px;
     padding: 44px;
   }
   #aboutme {
-    	margin: 10px 10px 80px 10px;
+    	margin: 0px 10px 80px 10px;
     }
 .navheader {
+    top: 0px;
 		text-align: center;
 		position: relative;
 		background: #fff;
-		margin-bottom: 20px;
+	  margin: 0px 0px 10px 0px;
 		padding: 0px;
 		height: 40px;
-		line-height: 40px;
+    line-height: 40px;
+    width: 100%;
 
+}
+h2 {
+  font-size: 1.8em;
 }
 .ChrisCuomo {
   float: left;
@@ -252,11 +269,16 @@ box-shadow: 0px 0px 9px 3px #777777;
   margin: 15px 5% 15px 1%;
 }
 #portfolio {
+  padding: 20px;
   margin: 10px 10px 60px 10px;
 }
+.portfolionames {
+  line-height: 15px;
+  font-size: 14px;
+  bottom: 30px;
+}
 .floatedlist {
-  
-  width: 100%
+  width: 50%;
   
   }
 #contactform {
